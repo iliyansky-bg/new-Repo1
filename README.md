@@ -25,9 +25,9 @@ Construction web site/
 
 ## 🎨 Color Scheme
 
-- **Primary Green**: #2d7a3e (Dark Green - Headers/Footer)
-- **Secondary Green**: #4a9f5f (Medium Green - Accents)
-- **Light Green**: #a8e6c1 (Light Green - Highlights)
+- **Primary Blue**: #1e3a5f (Dark Blue - Headers/Footer)
+- **Secondary Blue**: #2d5a8c (Medium Blue - Accents)
+- **Light Blue**: #a8d5ff (Light Blue - Highlights)
 - **Background**: #f9f9f9 (Light Gray)
 
 ## 📋 Sections

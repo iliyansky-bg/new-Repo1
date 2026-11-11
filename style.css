@@ -13,7 +13,7 @@ body {
 
 /* Header & Navigation */
 header {
-    background-color: #2d7a3e;
+    background-color: #1e3a5f;
     color: white;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -46,13 +46,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #a8e6c1;
+    color: #a8d5ff;
 }
 
 nav a.active {
-    color: #a8e6c1;
+    color: #a8d5ff;
     font-weight: bold;
-    border-bottom: 2px solid #a8e6c1;
+    border-bottom: 2px solid #a8d5ff;
     padding-bottom: 0.25rem;
 }
 
@@ -86,7 +86,7 @@ section {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #2d7a3e 0%, #4a9f5f 100%);
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8c 100%);
     color: white;
     text-align: center;
     padding: 3rem 2rem;
@@ -104,8 +104,8 @@ section {
 
 /* CTA Button */
 .cta-button {
-    background-color: #a8e6c1;
-    color: #2d7a3e;
+    background-color: #a8d5ff;
+    color: #1e3a5f;
     border: none;
     padding: 0.75rem 2rem;
     font-size: 1rem;
@@ -124,7 +124,7 @@ section {
 .services h2,
 .projects h2,
 .about h2 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
@@ -138,7 +138,7 @@ section {
 .service-card {
     background-color: #f0f8f4;
     padding: 1.5rem;
-    border-left: 4px solid #2d7a3e;
+    border-left: 4px solid #1e3a5f;
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -149,7 +149,7 @@ section {
 }
 
 .service-card h3 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     margin-bottom: 0.5rem;
 }
 
@@ -179,7 +179,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #2d7a3e;
+    background-color: #1e3a5f;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -199,7 +199,7 @@ footer {
 }
 
 .footer-links a {
-    color: #a8e6c1;
+    color: #a8d5ff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -210,7 +210,7 @@ footer {
 
 /* Services Page Styles */
 .services-hero {
-    background: linear-gradient(135deg, #2d7a3e 0%, #4a9f5f 100%);
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8c 100%);
     color: white;
     text-align: center;
     padding: 4rem 2rem;
@@ -236,7 +236,7 @@ footer {
     background-color: #f0f8f4;
     padding: 2rem;
     border-radius: 8px;
-    border-left: 5px solid #2d7a3e;
+    border-left: 5px solid #1e3a5f;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -252,7 +252,7 @@ footer {
 }
 
 .service-detail-card h2 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -277,19 +277,19 @@ footer {
 
 .service-detail-card ul li:before {
     content: "✓";
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-weight: bold;
     position: absolute;
     left: 0;
 }
 
 .service-cta {
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-weight: 500;
     font-style: italic;
     margin-top: 1rem;
     padding-top: 1rem;
-    border-top: 2px solid #a8e6c1;
+    border-top: 2px solid #a8d5ff;
 }
 
 .service-process {
@@ -299,7 +299,7 @@ footer {
 }
 
 .service-process h2 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -329,7 +329,7 @@ footer {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #2d7a3e;
+    background-color: #1e3a5f;
     color: white;
     border-radius: 50%;
     font-size: 1.5rem;
@@ -338,7 +338,7 @@ footer {
 }
 
 .step h3 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     margin-bottom: 0.5rem;
 }
 
@@ -348,7 +348,7 @@ footer {
 }
 
 .cta-section {
-    background: linear-gradient(135deg, #2d7a3e 0%, #4a9f5f 100%);
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8c 100%);
     color: white;
     text-align: center;
     padding: 3rem 2rem;
@@ -363,7 +363,7 @@ footer {
 .cta-section p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #a8e6c1;
+    color: #a8d5ff;
 }
 
 /* Contact Section */
@@ -372,7 +372,7 @@ footer {
 }
 
 .contact h2 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
@@ -403,7 +403,7 @@ footer {
 
 .form-group label {
     display: block;
-    color: #2d7a3e;
+    color: #1e3a5f;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
@@ -413,7 +413,7 @@ footer {
 .form-group textarea {
     width: 100%;
     padding: 0.75rem;
-    border: 2px solid #a8e6c1;
+    border: 2px solid #a8d5ff;
     border-radius: 5px;
     font-family: inherit;
     font-size: 1rem;
@@ -425,12 +425,12 @@ footer {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #2d7a3e;
+    border-color: #1e3a5f;
     box-shadow: 0 0 5px rgba(45, 122, 62, 0.2);
 }
 
 .submit-btn {
-    background-color: #2d7a3e;
+    background-color: #1e3a5f;
     color: white;
     border: none;
     padding: 0.75rem 2rem;
@@ -443,7 +443,7 @@ footer {
 }
 
 .submit-btn:hover {
-    background-color: #4a9f5f;
+    background-color: #2d5a8c;
     transform: scale(1.02);
 }
 
@@ -457,11 +457,11 @@ footer {
     background-color: #f0f8f4;
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 4px solid #2d7a3e;
+    border-left: 4px solid #1e3a5f;
 }
 
 .info-item h3 {
-    color: #2d7a3e;
+    color: #1e3a5f;
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
 }
@@ -488,7 +488,7 @@ footer {
         top: 60px;
         left: 0;
         right: 0;
-        background-color: #2d7a3e;
+        background-color: #1e3a5f;
         width: 100%;
     }
 
