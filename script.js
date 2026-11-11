@@ -99,5 +99,32 @@ function validateEmail(email) {
     return re.test(email);
 }
 
+// Contact Form Submission
+const contactForm = document.querySelector('.contact-form form');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const service = document.getElementById('service').value;
+        const message = document.getElementById('message').value.trim();
+
+        if (!name || !email || !message) {
+            alert('Please fill in all required fields (Name, Email, Message)');
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            alert('Please enter a valid email address');
+            return;
+        }
+
+        alert(`Thank you, ${name}! Your message has been received. We'll contact you soon at ${email}`);
+        contactForm.reset();
+    });
+}
+
 // Log page interactions
 console.log('ConstructPro website loaded successfully!');
